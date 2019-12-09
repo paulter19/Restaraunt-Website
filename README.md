@@ -1,2 +1,2 @@
 # Restaraunt Website
- live at https://paulsrestaraunt.netlify.com/
+ live at https://paulsrestaurant.netlify.com/
