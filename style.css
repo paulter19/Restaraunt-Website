@@ -55,6 +55,7 @@ body {
   left: 35%;
   top: 30%;
   border-radius: 20px;
+  opacity: 0.7;
 }
 .restaurant-banner p {
   margin-top: 50px;
