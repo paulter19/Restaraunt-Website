@@ -61,7 +61,8 @@ body {
   font-weight: bold;
 }
 .restaurant-banner h3 {
-  font-size: 1.5vw;
+  font-size: 1.4vw;
+  font-weight: normal;
 }
 .menu-button {
   width: 120px;
