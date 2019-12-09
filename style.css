@@ -78,6 +78,9 @@ body {
   .menu-button {
     width: 70%;
   }
+  .restaurant-banner {
+    width: 40%;
+  }
 }
 /* End Restaurant Image */
 
