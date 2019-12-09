@@ -7,7 +7,11 @@ const client = contentful.createClient({
 
 //variables
 const menuItems = document.querySelector(".menu-items");
-const menuButton = document.getElementById("menu-button");
+const productsDiv = document.querySelector(".products");
+const menuButton = document.querySelector(".menu-button");
+menuButton.addEventListener("click", () => {
+  productsDiv.scrollIntoView();
+});
 
 class MenuItems {
   async getItems() {
