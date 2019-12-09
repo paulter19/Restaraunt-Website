@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+}
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Lato", sans-serif;
+  background: white;
+  height: 60px;
+  align-items: center;
+}
+
+.navbar h1 {
+  padding: 0 1rem;
+  font-size: 2vw;
+}
+.navbar-center {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.navbar-center a {
+  text-decoration: none;
+  color: black;
+  padding: 0 1rem;
+  font-size: 1.5vw;
+}
+/* End Navbar */
+/* Restaurant Image Main Body */
+.restaurant-image {
+  min-height: calc(100vh - 60px);
+  background: url("./images/restaurant.jpg") center/cover no-repeat;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.restaurant-banner {
+  background: rgba(255, 255, 255);
+  width: 30%;
+  height: 150px;
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 0 1.5rem;
+  position: absolute;
+  left: 35%;
+  top: 30%;
+  border-radius: 20px;
+}
+.restaurant-banner p {
+  margin-top: 50px;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.restaurant-banner h3 {
+  font-size: 1.5vw;
+}
+/* End Restaurant Image */
+
+/* Menu Items */
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+  width: 90vw;
+  margin: 0 auto;
+}
+.menu-title {
+  text-align: center;
+  padding: 30px;
+}
+.item {
+  width: 45%;
+  margin: 0 auto;
+}
+.item img {
+  width: 70%;
+  border-radius: 5%;
+}
+.item-details {
+  display: inline-block;
+}
+/* End Menu Items */
+
+/* about page*/
+.about-body {
+  background: darkred;
+}
+.restaurant-information {
+}
+.about-paragraph {
+  width: 40%;
+  margin: 15px auto;
+  color: white;
+  font: bolder;
+  font-size: 2vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
