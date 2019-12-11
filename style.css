@@ -54,6 +54,7 @@ body {
   left: 35%;
   top: 30%;
   border-radius: 20px;
+  opacity: 0.9;
 }
 .restaurant-banner p {
   margin-top: 50px;
@@ -97,7 +98,8 @@ body {
 }
 .menu-title {
   text-align: center;
-  padding: 30px;
+  padding: 60px;
+  margin-top: 3%;
 }
 .item {
   width: 45%;
