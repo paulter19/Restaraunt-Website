@@ -37,14 +37,14 @@ body {
 /* Restaurant Image Main Body */
 .restaurant-image {
   min-height: calc(100vh - 60px);
-  background: url("./images/restaurant.jpg") center/cover no-repeat;
+  background: url("./images/restaurant2.jpg") center/cover no-repeat;
   width: 100%;
 }
 
 .restaurant-banner {
   background: rgba(255, 255, 255);
   width: 30%;
-  height: 170px;
+  height: 200px;
   display: block;
   margin: auto;
   overflow: hidden;
